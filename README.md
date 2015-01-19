@@ -24,7 +24,6 @@ Embrace conventions. Don't fret details when you don't have to. Make it easy for
 ### Comparmentalization
 Level out inconsistencies between platforms. Virtualize. Simplify development. Inspire experimentation.
 
-- [conda][conda] as an optional, improved "virtualenv" replacement
 - [Vagrant][vagrant] to define and share development environments, provisioned by [Ansible][ansible].
 
 ### Python 2 vs. 3
