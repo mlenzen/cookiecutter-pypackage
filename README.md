@@ -1,5 +1,5 @@
 
-Cookiecutter template for bleeding edge Python development. See [@audreyr/cookiecutter][cookiecutter].
+Cookiecutter template for Python development. See [@audreyr/cookiecutter][cookiecutter].
 
 The template aspires adoption of new and exiting developer tools. Focus is on automation and keeping your repo DRY. Whenever justifiable, new and Python-native is preferred over "tried and true".
 
@@ -35,7 +35,7 @@ Python 2.7.x isn't bleeding edge but it would be crazy to not officially support
 In your projects folder, scaffold a brand new Python project:
 
 ```bash
-$ cookiecutter https://github.com/robinandeer/cookiecutter-pyvanguard.git
+$ cookiecutter git@github.com:mlenzen/cookiecutter-pypackage.git
 ```
 
 Then:
@@ -50,6 +50,8 @@ Then:
 Don't worry, you have options; fork, remix, and pull requests!
 
 ### Similar Cookiecutter Templates
+
+* [@robinandeer/cookiecutter-pyvanguard][parent]: Parent project
 
 * [Nekroze/cookiecutter-pypackage][nekroze]: with PyTest test runner, strict flake8 checking with Travis/Tox, and some docs and *setup.py* differences.
 
@@ -78,12 +80,13 @@ I also accept pull requests on this repository provided they are small, atomic, 
 [cookiecutter]: https://github.com/audreyr/cookiecutter
 [coveralls]: https://coveralls.io/
 [editorconfig]: http://editorconfig.org/
-[family-tree]: https://github.com/robinandeer/cookiecutter-pyvanguard/network/members
+[family-tree]: https://github.com/mlenzen/cookiecutter-pypackage/network/members
 [github-comparison]: https://github.com/tony/cookiecutter-pypackage/compare/robinandeer:master...master
 [inspiration]: http://thenounproject.com/term/cutting-edge/14935/
 [invoke]: http://invoke.readthedocs.org/en/latest/
 [nekroze]: https://github.com/Nekroze/cookiecutter-pypackage
-[network]: https://github.com/robinandeer/cookiecutter-pyvanguard/network
+[network]: https://github.com/mlenzen/cookiecutter-pypackage/network
+[parent]: https://github.com/robinandeer/cookiecutter-pyvanguard
 [pytest]: http://pytest.org/latest/
 [tony]: https://github.com/tony/cookiecutter-pypackage
 [tox]: http://tox.readthedocs.org/en/latest/
