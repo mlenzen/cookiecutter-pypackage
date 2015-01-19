@@ -6,7 +6,7 @@
 {{ cookiecutter.description }}
 
 :copyright: (c) {{ cookiecutter.year }} by {{ cookiecutter.full_name }}
-:licence: MIT, see LICENCE for more details
+:licence: BSD, see LICENCE for more details
 """
 from __future__ import absolute_import, unicode_literals
 
@@ -27,5 +27,5 @@ __version__ = '{{ cookiecutter.version }}'
 __author__ = '{{ cookiecutter.full_name }}'
 __email__ = '{{ cookiecutter.email }}'
 
-__license__ = 'MIT'
+__license__ = 'BSD'
 __copyright__ = 'Copyright {{ cookiecutter.year }} {{ cookiecutter.full_name }}'

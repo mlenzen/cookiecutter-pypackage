@@ -19,7 +19,7 @@ Anyone can help make this project better - read [CONTRIBUTION][CONTRIBUTION.md] 
 
 
 ## License
-MIT. See the [LICENSE](LICENSE) file for more details.
+BSD. See the [LICENSE](LICENSE) file for more details.
 
 
 [fury-url]: http://badge.fury.io/py/{{ cookiecutter.repo_name }}
