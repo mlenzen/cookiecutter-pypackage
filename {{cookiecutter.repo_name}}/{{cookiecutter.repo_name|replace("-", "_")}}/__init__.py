@@ -10,14 +10,6 @@
 """
 from __future__ import absolute_import, unicode_literals
 
-# Generate your own AsciiArt at:
-# patorjk.com/software/taag/#f=Calvin%20S&t={{ cookiecutter.project_name }}
-__banner__ = r"""
-╦  ╦┌─┐┌┐┌┌─┐┬ ┬┌─┐┬─┐┌┬┐
-╚╗╔╝├─┤││││ ┬│ │├─┤├┬┘ ││  by {{ cookiecutter.full_name }}
- ╚╝ ┴ ┴┘└┘└─┘└─┘┴ ┴┴└──┴┘
-"""
-
 __title__ = '{{ cookiecutter.repo_name }}'
 __summary__ = '{{ cookiecutter.description }}'
 __uri__ = 'https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}'
