@@ -1,4 +1,3 @@
-![Header logo](artwork/header@2x.png)
 
 Cookiecutter template for bleeding edge Python development. See [@audreyr/cookiecutter][cookiecutter].
 
