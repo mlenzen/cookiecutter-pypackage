@@ -1,6 +1,7 @@
 # Mac OSX hidden files
 .DS_Store
 
+__pycache__
 *.py[cod]
 
 # C extensions
@@ -47,3 +48,7 @@ docs/_build
 # Cookiecutter
 output/
 boilerplate/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace

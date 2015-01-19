@@ -57,3 +57,7 @@ output/*/index.html
 
 # Sphinx docs
 docs/_build
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
