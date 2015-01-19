@@ -1,4 +1,4 @@
-# A list of people who have contributed to Warehouse in order of their
+# A list of people who have contributed to {{ cookiecutter.project_name }} in order of their
 # first contribution.
 #
 # Uses the format of ``Name <email@domain.tld> (url)`` with the
