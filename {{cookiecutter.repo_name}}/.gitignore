@@ -14,6 +14,7 @@ __pycache__/
 dist
 build
 eggs
+.eggs
 parts
 bin
 var
@@ -44,12 +45,8 @@ TRASH*
 *.tar.gz
 .vagrant
 
-# SublimeText: workspace files are user-specific
 *.sublime-workspace
-
-# project files should be version controlled, unless a significant
-# proportion of contributors will probably not be using SublimeText
-# *.sublime-project
+*.sublime-project
 
 # Complexity
 output/*.html
@@ -61,3 +58,7 @@ docs/_build
 # Sublime Text
 *.sublime-project
 *.sublime-workspace
+
+MANIFEST
+
+env

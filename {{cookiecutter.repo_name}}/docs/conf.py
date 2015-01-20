@@ -146,7 +146,7 @@ html_static_path = ['_static']
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page
 # bottom, using the given strftime format.
-#html_last_updated_fmt = '%b %d, %Y'
+html_last_updated_fmt = '%Y-%b-%d'
 
 # If true, SmartyPants will be used to convert quotes and dashes to
 # typographically correct entities.
@@ -194,23 +194,23 @@ htmlhelp_basename = '{{ cookiecutter.repo_name }}doc'
 # -- Options for LaTeX output ------------------------------------------
 
 latex_elements = {
-    # The paper size ('letterpaper' or 'a4paper').
-    #'papersize': 'letterpaper',
+		# The paper size ('letterpaper' or 'a4paper').
+		#'papersize': 'letterpaper',
 
-    # The font size ('10pt', '11pt' or '12pt').
-    #'pointsize': '10pt',
+		# The font size ('10pt', '11pt' or '12pt').
+		#'pointsize': '10pt',
 
-    # Additional stuff for the LaTeX preamble.
-    #'preamble': '',
+		# Additional stuff for the LaTeX preamble.
+		#'preamble': '',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass
 # [howto/manual]).
 latex_documents = [
-    ('index', '{{ cookiecutter.repo_name }}.tex',
-     u'{{ cookiecutter.project_name }} Documentation',
-     u'{{ cookiecutter.full_name }}', 'manual'),
+		('index', '{{ cookiecutter.repo_name }}.tex',
+		 u'{{ cookiecutter.project_name }} Documentation',
+		 u'{{ cookiecutter.full_name }}', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at
@@ -239,9 +239,9 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', '{{ cookiecutter.repo_name }}',
-     u'{{ cookiecutter.project_name }} Documentation',
-     [u'{{ cookiecutter.full_name }}'], 1)
+		('index', '{{ cookiecutter.repo_name }}',
+		 u'{{ cookiecutter.project_name }} Documentation',
+		 [u'{{ cookiecutter.full_name }}'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -254,12 +254,12 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    ('index', '{{ cookiecutter.repo_name }}',
-     u'{{ cookiecutter.project_name }} Documentation',
-     u'{{ cookiecutter.full_name }}',
-     '{{ cookiecutter.repo_name }}',
-     'One line description of project.',
-     'Miscellaneous'),
+		('index', '{{ cookiecutter.repo_name }}',
+		 u'{{ cookiecutter.project_name }} Documentation',
+		 u'{{ cookiecutter.full_name }}',
+		 '{{ cookiecutter.repo_name }}',
+		 'One line description of project.',
+		 'Miscellaneous'),
 ]
 
 # Documents to append as an appendix to all manuals.
