@@ -1,4 +1,5 @@
 -r requirements.txt
+-r requirements/docs.txt
 
 bumpversion
 coverage
@@ -7,6 +8,4 @@ flake8
 invoke
 ipython
 pytest
-sphinx
-sphinxcontrib-napoleon
 wheel>=0.23.0

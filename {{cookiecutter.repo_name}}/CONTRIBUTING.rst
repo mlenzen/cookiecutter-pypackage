@@ -69,7 +69,7 @@ Ready to contribute? Here's how to set up `{{ cookiecutter.repo_name }}` for loc
     $ cd {{ cookiecutter.repo_name }}
     $ pyvenv env
     $ . env/bin/activate
-    $ pip install -r requirements-dev.txt
+    $ pip install -r requirements/dev.txt
     $ pip install --editable .
 
 4. Create a branch for local development::
