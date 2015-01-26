@@ -9,7 +9,6 @@ Automate everything. Banish tedious tasks. Ensure reproducibility. Minimize erro
 - [pytest][pytest] for test discovery and automation
 - [Travis][travis] for continuous integration
 - [bumpversion][bumpversion] for updating version numbers with *one* command
-- [Invoke][invoke] for task execution as a Python-native Make replacement
 - [Coveralls.io][coveralls] for integrating test coverage with GitHub 
 
 ### Standardization
@@ -82,7 +81,6 @@ I also accept pull requests on this repository provided they are small, atomic, 
 [family-tree]: https://github.com/mlenzen/cookiecutter-pypackage/network/members
 [github-comparison]: https://github.com/tony/cookiecutter-pypackage/compare/robinandeer:master...master
 [inspiration]: http://thenounproject.com/term/cutting-edge/14935/
-[invoke]: http://invoke.readthedocs.org/en/latest/
 [nekroze]: https://github.com/Nekroze/cookiecutter-pypackage
 [network]: https://github.com/mlenzen/cookiecutter-pypackage/network
 [parent]: https://github.com/robinandeer/cookiecutter-pyvanguard

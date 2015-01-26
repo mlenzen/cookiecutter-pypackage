@@ -5,7 +5,6 @@ bumpversion
 coverage
 coveralls
 flake8
-invoke
 ipython
 pytest
 wheel>=0.23.0
