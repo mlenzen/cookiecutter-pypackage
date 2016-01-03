@@ -16,7 +16,7 @@ Overview
 
 This package includes one module - ``{{ cookiecutter.repo_name }}``.
 
-Tested against Python 2.7, 3.3, 3.4 & PyPy.
+Tested against Python 2.7, 3.3, 3.4, 3.5, PyPy & PyPy3.
 
 Getting Started
 ===============
