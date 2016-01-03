@@ -1,5 +1,5 @@
 
-Cookiecutter template for Python development. See [@audreyr/cookiecutter][cookiecutter].
+Cookiecutter template for Python package development. See [@audreyr/cookiecutter][cookiecutter].
 
 The template aspires adoption of new and exiting developer tools. Focus is on automation and keeping your repo DRY. Whenever justifiable, new and Python-native is preferred over "tried and true".
 
@@ -20,11 +20,6 @@ Embrace conventions. Don't fret details when you don't have to. Make it easy for
 - Sensible conventions with first class GitHub support like ``CONTRIBUTORS.md``
 - Let setuptools generate virutal scripts for you by deep linking into your package (see ``setup.py`` for more details)
 
-### Comparmentalization
-Level out inconsistencies between platforms. Virtualize. Simplify development. Inspire experimentation.
-
-- [Vagrant][vagrant] to define and share development environments, provisioned by [Ansible][ansible].
-
 ### Python 2 vs. 3
 Python 2.7.x isn't bleeding edge but it would be crazy to not officially support it. The compromise is developing for Python 3 first and ensure backwards compatability through a lightweight ``_compat.py`` module.
 
@@ -43,9 +38,6 @@ Then:
 * Sign up and activate your repo at [coveralls.io][coveralls].
 * Release your package the standard Python way. Here's a release checklist: https://gist.github.com/audreyr/5990987
 
-
-## Not feeling adventurous?
-Don't worry, you have options; fork, remix, and pull requests!
 
 ### Similar Cookiecutter Templates
 
@@ -88,5 +80,4 @@ I also accept pull requests on this repository provided they are small, atomic, 
 [tony]: https://github.com/tony/cookiecutter-pypackage
 [tox]: http://tox.readthedocs.org/en/latest/
 [travis]: https://travis-ci.org/
-[vagrant]: http://www.vagrantup.com/
 [wheel]: http://wheel.readthedocs.org/en/latest/
